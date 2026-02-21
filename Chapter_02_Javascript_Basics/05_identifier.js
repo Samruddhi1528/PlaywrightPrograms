@@ -39,3 +39,20 @@ console.log(नमस्ते);
 
 // var break = "Samruddhi"
 // console.log(break);
+
+//Identifier containing numbers, $, and _
+var nm1 = "Paul"
+console.log(nm1);
+
+var nm_1 = "Doe"
+console.log(nm1);
+
+var nm$1 = "Sam"
+console.log(nm$1);
+
+var name_1$1 = "Hello";
+console.log(name_1$1);
+
+var name_1$1_2 = "World";
+console.log(name_1$1_2);
+

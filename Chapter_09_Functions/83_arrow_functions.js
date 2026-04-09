@@ -41,5 +41,25 @@ const getResult = (score) => {
 console.log(getResult(35))
 
 
+//=======================My code==================
+//function expression:
 
+const func1 = function (name) {
+    console.log(`Hello ${name}`)
+}
 
+func1("Samruddhi")
+
+//arrow function:
+const func2 = (name1) => console.log(`Hello ${name1}`)
+func2("Sameer")
+
+//arrow function with multiple parameters:
+const func3 = (name2, age) => console.log(`Hello ${name2}, you are ${age} years old`)
+func3("Sameer", 25)
+
+//arrow function with multiple parameters and return value:
+const func4 = (name3, age1) => {
+    return `Hello ${name3}, you are ${age1} years old`
+}
+console.log(func4("Sameer", 25))

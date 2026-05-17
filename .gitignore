@@ -6,3 +6,8 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Allure & Custom Reports
+allure-report/
+allure-results/
+tta-report/

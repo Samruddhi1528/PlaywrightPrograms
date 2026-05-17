@@ -21,7 +21,7 @@ async function saveSession() {
     await page.waitForTimeout(3000);
 
     await context.storageState({ path: "./user-session.json" });
-    console.log("Session saved to user-session.json ✅");
+    console.log("Session saved to user-session.json ✅"); //in user-session.json file, name, value and expire are the imp fields
 
     await page.waitForTimeout(2000);
     await browser.close();

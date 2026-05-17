@@ -37,9 +37,9 @@ test("Free trial testing", async ({ page, context }) => {
     const errorMessage = newPage.getByText(
         "gmail.com doesn't look like a business domain. Please use your business email."
     );
+    await expect(errorMessage).toBeVisible();
 
     // Assertion
-    await expect(errorMessage).toBeVisible();
     await expect(errorMessage).toHaveText(
         "gmail.com doesn't look like a business domain. Please use your business email."
     );

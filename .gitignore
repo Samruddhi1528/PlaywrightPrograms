@@ -11,5 +11,4 @@ node_modules/
 allure-report/
 allure-results/
 tta-report/
-report_*.html
-**/report_*.html
+
